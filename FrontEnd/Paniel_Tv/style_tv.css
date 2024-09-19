@@ -1,0 +1,105 @@
+/* Estilos gerais do painel TV */
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.left-section {
+    flex: 2;
+    background-color: #ffffff;
+    padding: 20px;
+    border-right: 2px solid #004aad;
+    overflow-y: auto;
+}
+
+.right-section {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.clinic-logo {
+    max-width: 30%;
+    height: auto;
+}
+
+.current-attendance {
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 3rem; /* Aumenta o tamanho da fonte para visibilidade em TV */
+}
+
+.atendimento-convencional {
+    background-color: #004aad; /* Azul para atendimento convencional */
+}
+
+.atendimento-prioridade {
+    background-color: #ed9c1b; /* Laranja escuro para atendimento prioritário */
+}
+
+
+.current-attendance h2 {
+    font-size: 4rem; /* Título maior */
+    margin-bottom: 20px;
+}
+
+.current-attendance .info {
+    font-size: 3rem; /* Aumenta o tamanho da fonte para visibilidade */
+    line-height: 0; /* Ajusta o espaçamento entre linhas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+.called-list {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.called-list h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.called-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.called-list li {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#time-weather {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#current-time {
+    font-size: 4rem; /* Tamanho da fonte para a hora */
+}
+
+#current-weather {
+    font-size: 2.5rem; /* Tamanho da fonte para o clima */
+}
+
