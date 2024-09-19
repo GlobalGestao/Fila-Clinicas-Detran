@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamada de Pacientes</title>
+    <link rel="stylesheet" href="style_chamada.css">
+    <script defer src="script_chamada.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Chamar Paciente</h1>
+
+        <label for="guiche">Selecione o Guichê:</label>
+        <select id="guiche">
+            <option value="1">Guichê 1</option>
+            <option value="2">Guichê 2</option>
+            <option value="3">Guichê 3</option>
+            <option value="4">Guichê 4</option>
+        </select>
+
+        <button id="chamar-btn">Chamar Próximo Paciente</button>
+
+        <div id="mensagem"></div>
+
+        <div class="fila-container">
+            <h2>Pacientes na Fila</h2>
+            <ul id="lista-fila">
+                <!-- Lista de pacientes na fila será exibida aqui -->
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
