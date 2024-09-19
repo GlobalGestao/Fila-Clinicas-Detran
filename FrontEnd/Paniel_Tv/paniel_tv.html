@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Senha - TV</title>
+    <link rel="stylesheet" href="style_tv.css">
+    <script defer src="script_tv.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Seção da esquerda -->
+        <div class="left-section">
+            <!-- Logo da Clínica -->
+            <div class="logo-container">
+                <img src="logo.png" alt="Logo da Clínica" class="clinic-logo">
+            </div>
+
+            <!-- Atendimento Atual -->
+            <div class="current-attendance" id="current-attendance">
+                <h2>Atendimento Atual</h2>
+                <div class="info">
+                    <p><strong>Nome:</strong> <span id="current-name">Fulano de Tal</span></p>
+                    <p><strong>Guichê:</strong> <span id="current-guiche">05</span></p>
+                    <p><strong>Tipo de Atendimento:</strong> <span id="current-type">Convencional</span></p>
+                </div>
+            </div>
+
+            <!-- Pessoas Já Chamadas -->
+            <div class="called-list">
+                <h3>Pessoas Já Chamadas</h3>
+                <ul id="called-list">
+                    <!-- Lista de pessoas chamadas será exibida aqui -->
+                </ul>
+            </div>
+        </div>
+
+        <!-- Seção da direita -->
+        <div class="right-section">
+            <div id="time-weather">
+                <p id="current-time"></p>
+                <p id="current-weather"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
